@@ -21,5 +21,5 @@ Anggota:
 5. Dillon Imtitsal Pratama
 6. I Gede Tio Pradipta Jasapada
 
-Konsep:
+Konsep Struktur Data:
 <img width="1920" height="1080" alt="blueprint restoran++" src="https://github.com/user-attachments/assets/31d2dded-292f-4f3b-8240-3603749a1748" />
