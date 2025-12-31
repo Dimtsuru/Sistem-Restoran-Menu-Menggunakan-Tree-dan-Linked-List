@@ -2,19 +2,23 @@
 
 ## Deskripsi Proyek
 
-Proyek ini merupakan **aplikasi manajemen restoran berbasis bahasa C++** yang dirancang untuk mengelola menu makanan dan minuman serta antrian pesanan pelanggan. Program ini mengimplementasikan berbagai **struktur data fundamental** seperti *Linked List*, *Queue*, dan *Tree* untuk mensimulasikan sistem pemesanan restoran secara terstruktur dan efisien.
+Sistem Manajemen Restoran ini merupakan aplikasi berbasis C++ yang dirancang untuk membantu pengelolaan menu makanan dan minuman, antrian pesanan pelanggan, serta manajemen data menu secara terstruktur dan efisien.
+Program ini mengimplementasikan beberapa struktur data fundamental untuk mensimulasikan sistem restoran sederhana yang mudah dikembangkan dan dipelajari, khususnya dalam konteks pembelajaran Algoritma dan Struktur Data.
 
 
 ## Fitur Utama
 
-* Manajemen menu makanan dan minuman
-* Penambahan, pengubahan, dan penghapusan menu
-* Sistem antrian pesanan pelanggan
-* Satu pesanan dapat berisi beberapa item menu
-* Penyelesaian pesanan sebelum memulai pesanan baru
-* Implementasi *nested linked list* untuk data pesanan
-* Implementasi *queue* untuk antrian pelanggan
-* Struktur program modular dan mudah dikembangkan
+➕ Menambahkan menu makanan dan minuman
+
+✏️ Mengubah dan menghapus menu
+
+📋 Menampilkan daftar menu
+
+🧾 Mengelola pesanan pelanggan
+
+⏳ Sistem antrian pesanan berbasis FIFO
+
+🌳 Pengelompokan data menu menggunakan struktur tree
 
 
 ## Struktur Data yang Digunakan
@@ -24,19 +28,33 @@ Proyek ini merupakan **aplikasi manajemen restoran berbasis bahasa C++** yang di
 
 ## Alur Program
 
-1. Pengguna memilih menu utama
-2. Pengguna dapat:
+Secara umum, program berjalan menggunakan **menu interaktif berbasis console** dengan alur eksekusi berulang (*looping*) hingga pengguna memilih keluar dari sistem.
 
-   * Menambahkan menu
-   * Mengubah menu
-   * Menghapus menu
-   * Membuat pesanan
-3. Saat membuat pesanan:
+### Inisialisasi Program
 
-   * Pengguna memilih beberapa item menu
-   * Pesanan dimasukkan ke dalam antrian
-   * Pesanan diselesaikan sebelum pesanan baru diproses
-4. Sistem menampilkan data menu dan antrian secara real-time
+* Program dimulai dengan:
+
+  * Inisialisasi struktur data:
+
+    * Linked List / Nested Linked List untuk menu
+    * Queue untuk antrian pesanan
+    * Tree untuk pengelompokan data menu
+
+### Menu Utama
+
+Pengguna diberikan beberapa pilihan utama, antara lain:
+
+  1. Tampilkan Menu
+  2. Tambahkan Pesanan
+  3. Selesaikan Pesanan
+  4. Tampilkan Semua Pesanan (banyak antrian: " << antrian.jumlah << ")
+  5. Ubah Harga Makanan(admin)
+  6. Hapus Makanan(admin)
+  7. Tambah Makanan(admin)
+  8. Urutkan Berdasarkan Harga
+  9. Keluar
+
+Program akan membaca input pilihan dan mengarahkan ke proses sesuai menu yang dipilih.
 
 
 ## Kontributor
